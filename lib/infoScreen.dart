@@ -20,7 +20,7 @@ class InfoScreen extends StatelessWidget {
         title: Text(
           "Conways Spiel des Lebens",
           style: GoogleFonts.indieFlower(
-              fontSize: 27, color: Colors.green, fontWeight: FontWeight.bold),
+              fontSize: 26, color: Colors.green, fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.blueGrey[900],
         toolbarHeight: 70,
