@@ -34,7 +34,8 @@ flutter_icons:
   image_path: "assets/icons/johnConway.png"
   android: true
   ios: true
-  adaptive_icon_background: "assets/icons/background.png"    
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "#ffffff"    
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

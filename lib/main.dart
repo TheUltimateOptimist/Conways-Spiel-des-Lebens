@@ -4,8 +4,6 @@ import 'package:conways_spiel_des_lebens/infoScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:math';
-import 'package:flutter_launcher_icons/android.dart';
-
 import 'objects.dart';
 
 int rowLength = 15;
