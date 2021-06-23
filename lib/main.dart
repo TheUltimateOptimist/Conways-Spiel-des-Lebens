@@ -46,7 +46,6 @@ class _MyHomePageState extends State<MyHomePage> {
         Duration(microseconds: (1000000 / changesPerSecond).round()), (timer) {
       if (isAnimationActive == true) {
         setState(() {
-          print("Timer1");
           updateLifeStatuses();
           mutations = mutations + 1;
         });
@@ -104,19 +103,45 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   playButton(),
                   randomButton(),
-                  ObjectButton(object: "Blinker"),
-                  ObjectButton(object: "Uhr"),
-                  ObjectButton(object: "Kröte"),
-                  ObjectButton(object: "Bipole"),
-                  ObjectButton(object: "Tripole"),
-                  //ObjectButton(object: "Pulsator"),
-                  //ObjectButton(object: "Tümmler"),
-                  ObjectButton(object: "Oktagon"),
-                  ObjectButton(object: "Gleiter"),
-                  ObjectButton(object: "Segler1"),
-                  ObjectButton(object: "Segler2"),
-                  ObjectButton(object: "Segler3"),
-                  ObjectButton(object: "r-Pentomino"),
+                  ObjectButton(object: "Blinker", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "Uhr", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "Kröte", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "Bipole", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "Tripole", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  //ObjectButton(object: "Pulsator", onPressed: (){setState(() {
+                   // listOfLifes = listOfLifes;
+                 // });},),
+                  //ObjectButton(object: "Tümmler", onPressed: (){setState(() {
+                  //  listOfLifes = listOfLifes;
+                 // });},),
+                  ObjectButton(object: "Oktagon", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "Gleiter", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "Segler1", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "Segler2", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "Segler3", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
+                  ObjectButton(object: "r-Pentomino", onPressed: (){setState(() {
+                    listOfLifes = listOfLifes;
+                  });},),
                 ],
               ),
             ),
