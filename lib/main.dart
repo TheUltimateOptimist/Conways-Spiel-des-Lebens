@@ -1,12 +1,17 @@
 import 'dart:async';
 
+import 'package:conways_spiel_des_lebens/infoScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:math';
 
+import 'objects.dart';
+
 int rowLength = 15;
 int columnLength = 20;
 List<bool> listOfLifes = List.filled(15 * 20, false);
+List<bool> compareListOfLifes = List.filled(rowLength * columnLength, false);
+bool isAnimationActive = false;
 void main() {
   runApp(MyApp());
 }
@@ -28,11 +33,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  bool isAnimationActive = false;
   List<Widget> rowChildren = List.empty(growable: true);
   List<Widget> columnChildren = List.empty(growable: true);
   TextEditingController controller = TextEditingController();
-  double changesPerSecond = 1;
+  double changesPerSecond = 1.0;
   Timer timer = Timer.periodic(Duration(seconds: 1), (timer) {});
   int mutations = 0;
   @override
@@ -47,6 +51,11 @@ class _MyHomePageState extends State<MyHomePage> {
           mutations = mutations + 1;
         });
       }
+      else{
+        setState(() {
+          
+        });
+      }
     });
   }
 
@@ -55,10 +64,30 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          actions: [
+            Container(
+              margin: EdgeInsets.only(right: 10, bottom: 2),
+              child: IconButton(
+                icon: Icon(
+                  Icons.info,
+                  color: Colors.green,
+                  size: 28,
+                ),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => InfoScreen(),
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
           title: Text(
             "Conways Spiel des Lebens",
             style: GoogleFonts.indieFlower(
-                fontSize: 25, color: Colors.green, fontWeight: FontWeight.bold),
+                fontSize: 27, color: Colors.green, fontWeight: FontWeight.bold),
           ),
           backgroundColor: Colors.blueGrey[900],
           toolbarHeight: 70,
@@ -68,8 +97,28 @@ class _MyHomePageState extends State<MyHomePage> {
           //crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             descrption(),
-            Row(
-              children: [playButton(), randomButton()],
+            Container(
+              height: 45,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: [
+                  playButton(),
+                  randomButton(),
+                  ObjectButton(object: "Blinker"),
+                  ObjectButton(object: "Uhr"),
+                  ObjectButton(object: "Kröte"),
+                  ObjectButton(object: "Bipole"),
+                  ObjectButton(object: "Tripole"),
+                  //ObjectButton(object: "Pulsator"),
+                  //ObjectButton(object: "Tümmler"),
+                  ObjectButton(object: "Oktagon"),
+                  ObjectButton(object: "Gleiter"),
+                  ObjectButton(object: "Segler1"),
+                  ObjectButton(object: "Segler2"),
+                  ObjectButton(object: "Segler3"),
+                  ObjectButton(object: "r-Pentomino"),
+                ],
+              ),
             ),
             Container(
               child: constructField(),
@@ -95,20 +144,30 @@ class _MyHomePageState extends State<MyHomePage> {
         )),
       );
     } else {
-      return Container(child: Slider(activeColor: Colors.green,inactiveColor: Colors.blueGrey[900],min: 1,max: 10,divisions: 9,value: changesPerSecond,onChanged: (double newValue){
-        changesPerSecond = newValue;
-        print(changesPerSecond);
-        timer.cancel();
-        timer = Timer.periodic(
-        Duration(microseconds: (1000000 / changesPerSecond).round()), (timer) {
-      if (isAnimationActive == true) {
-        setState(() {
-          updateLifeStatuses();
-          mutations = mutations + 1;
-        });
-      }
-    });
-      }));
+      return Container(
+          child: Slider(
+              activeColor: Colors.green,
+              inactiveColor: Colors.blueGrey[900],
+              min: 1,
+              max: 10,
+              divisions: 9,
+              value: changesPerSecond,
+              onChanged: (double newValue) {
+                changesPerSecond = newValue;
+                print(changesPerSecond);
+                timer.cancel();
+                timer = Timer.periodic(
+                    Duration(
+                        microseconds: (1000000 / changesPerSecond).round()),
+                    (timer) {
+                  if (isAnimationActive == true) {
+                    setState(() {
+                      updateLifeStatuses();
+                      mutations = mutations + 1;
+                    });
+                  }
+                });
+              }));
     }
   }
 
@@ -152,7 +211,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   randomButton() {
     if (isAnimationActive == true) {
-      return Container(margin: EdgeInsets.only(top: 10, left: 15),
+      return Container(
+        margin: EdgeInsets.only(top: 10, left: 15),
         child: Text(
           mutations.toString(),
           style: TextStyle(
@@ -328,24 +388,27 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void updateLifeStatuses() {
     for (int i = 0; i < listOfLifes.length; i++) {
+      compareListOfLifes[i] = listOfLifes[i];
+    }
+    for (int i = 0; i < listOfLifes.length; i++) {
       //a dead cell with three neighbours is reborn next round
-      if (listOfLifes[i] == false && livingNeighbourCells(i) == 3) {
+      if (compareListOfLifes[i] == false && livingNeighbourCells(i) == 3) {
         listOfLifes[i] = true;
       }
 
       //living cells with less than two living neighbours die next round
-      if (listOfLifes[i] == true && livingNeighbourCells(i) < 2) {
+      if (compareListOfLifes[i] == true && livingNeighbourCells(i) < 2) {
         listOfLifes[i] = false;
       }
 
       //a living cell with two or three living neighbours stays alive next round
-      if (listOfLifes[i] == true &&
+      if (compareListOfLifes[i] == true &&
           (livingNeighbourCells(i) == 2 || livingNeighbourCells(i) == 3)) {
         listOfLifes[i] = true;
       }
 
       //a living cell with more than three living neighbours dies next round
-      if (listOfLifes[i] == true && livingNeighbourCells(i) > 3) {
+      if (compareListOfLifes[i] == true && livingNeighbourCells(i) > 3) {
         listOfLifes[i] = false;
       }
     }
@@ -463,7 +526,7 @@ class _MyHomePageState extends State<MyHomePage> {
   calculateNeightbours(List<int> indexes) {
     int livingNeighbours = 0;
     for (int i = 0; i < indexes.length; i++) {
-      if (listOfLifes[indexes[i]] == true) {
+      if (compareListOfLifes[indexes[i]] == true) {
         livingNeighbours = livingNeighbours + 1;
       }
     }
