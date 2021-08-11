@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:conways_spiel_des_lebens/infoScreen.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'dart:math';
 import 'objects.dart';
 
@@ -84,8 +83,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
           title: Text(
             "Conways Spiel des Lebens",
-            style: GoogleFonts.indieFlower(
-                fontSize: 26, color: Colors.green, fontWeight: FontWeight.bold),
+            style: TextStyle(
+                fontSize: 26, color: Colors.green, fontWeight: FontWeight.bold, fontFamily: "IndieFlower"),
           ),
           backgroundColor: Colors.blueGrey[900],
           toolbarHeight: 70,
