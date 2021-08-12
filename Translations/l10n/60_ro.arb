@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Jocul Vieții",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Începeți animația după ce ați ales unele celule de pornire sau le-ați generat la întâmplare",
+  "description": "Jocul vieții a fost proiectat în 1970 de matematicianul John Horton Conway(1937-2020). Terenul de joc este împărțit în rânduri și coloane și este în mod ideal infinit de mare. Fiecare pătrat Grilă este un automat celular sau celulă, care poate fi fie viu sau mort. Starea de viață a fiecărei celule se schimbă cu fiecare rundă în funcție de celulele vecine, urmând reguli simple. O celulă moartă cu exact trei vecini vii este renăscută în generația ulterioară. Celulele vii cu mai puțin de doi vecini vii mor de singurătate în generația ulterioară. O celulă vie cu doi sau trei vecini vii rămâne în viață în generația ulterioară. Celulele vii cu mai mult de trei vecini vii mor din cauza suprapopulării în generația ulterioară. Cu aceste patru reguli simple, o varietate de structuri complexe sunt create din anumite modele inițiale în cursul jocului. Unele rămân neschimbate, altele oscilează, iar altele cresc sau trec. Unele structuri, așa-numitele planoare, se deplasează pe terenul de joc. Prin încercarea constantă a diferitelor constelații inițiale, pot fi descoperite modele interesante.",
+  "enterTheNumberOfLivingCells": "Introduceți numărul de celule vii",
+  "livingCells": "celule vii",
+  "save": "Salvează",
+  "back": "Înapoi"
+}

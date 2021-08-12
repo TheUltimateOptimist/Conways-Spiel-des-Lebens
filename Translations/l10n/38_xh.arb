@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Umdlalo Wobomi",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Qala Oopopayi emva kokuba ulwenzile esikhethiweyo abanye iqala iiseli okanye wenze generated kwabo i-seed engenamkhethe",
+  "description": "Umdlalo Wobomi waba yenzelwe kwi-1970 yi-mathematician Uyohane Horton Conway(1937-2020). I-ukudlala intsimi ngu umahlule kwi imiqolo kwaye imihlathi aze ideally infinitely enkulu. Ngamnye grid isikwere yi cellular automaton okanye iseli, apho unako wambi aphile okanye wafa. Imeko ubomi ngamnye cell utshintsho kunye ngamnye umjikelo kuxhomekeke wayalela iiseli, ukulandela imigaqo elula. A abafileyo yomnxeba kunye kanye kanye ezintathu abahlala neighbors ngu reborn kwi-emva kwisizukulwana. Abahlala iiseli kunye abangaphantsi kwe-ezimbini abahlala neighbors kufa ka-loneliness kwi-emva kwisizukulwana. Ophilayo yomnxeba kunye ezimbini okanye ezintathu abahlala neighbors ihlala aphile kwi-emva kwisizukulwana. Abahlala iiseli kunye ngaphezu ezintathu abahlala neighbors kufa ukusuka overpopulation kwi-emva kwisizukulwana. Kunye ezi zine elula imithetho, indlu ngezixhobo ezahlukeneyo complex structures zidaliwe ukusuka ezithile lokuqala iipateni ekuhambeni yomdlalo. Abanye bahlala ayitshintshanga, abanye oscillate, kwaye uzole abanye ukukhula okanye okokuba. Abanye zesixeko, ebizwa-gliders, yiya kwi ukudlala entsimini. Ngo constantly ukuzama ngaphandle ezahlukeneyo yokuqala iqela leenkwenkwezi, umdla iipateni kusenokuba bamfumana.",
+  "enterTheNumberOfLivingCells": "Faka Inani labantu abahlala iiseli",
+  "livingCells": "abahlala iiseli",
+  "save": "Gcina",
+  "back": "Emva"
+}

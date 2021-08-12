@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Hayot O'yini",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Agar ba'zi boshlang'ich hujayralarni tanlagan keyin animatsiya boshlash yoki tasodifiy ularni hosil qilgan",
+  "description": "Hayot o'yini matematik jon Xorton Konvey(1937-2020) tomonidan 1970-yilda ishlab chiqilgan. O'yin maydoni satr va ustunlar bo'linadi va ideal juda katta. Har bir panjara maydoni uyali avtomat yoki hujayra bo'lib, u tirik yoki o'lik bo'lishi mumkin. Har bir hujayraning hayot holati oddiy qoidalarga amal qilib, qo'shni hujayralarga qarab har bir tur bilan o'zgaradi. To'liq uchta tirik qo'shnilari bo'lgan o'lik hujayra keyingi avlodda qayta tug'iladi. Ikki tirik qo'shnidan kam bo'lgan tirik hujayralar keyingi avlodda yolg'izlikdan vafot etadi. Ikki yoki uchta tirik qo'shnilari bo'lgan tirik hujayra keyingi avlodda tirik qoladi. Uchtadan ortiq tirik qo'shni bo'lgan tirik hujayralar keyingi avlodda haddan tashqari ko'payib ketadi. Ushbu to'rtta oddiy qoidalar bilan o'yin davomida muayyan dastlabki naqshlardan turli xil murakkab tuzilmalar yaratiladi. Ba'zilari o'zgarishsiz qoladi, boshqalari tebranadi va boshqalari o'sadi yoki o'tadi. Gleyzerlar deb ataladigan ba'zi tuzilmalar o'yin maydonida harakat qilishadi. Turli xil boshlang'ich yulduz turkumlarini doimo sinab, qiziqarli naqshlarni topish mumkin.",
+  "enterTheNumberOfLivingCells": "Tirik hujayralar sonini kiriting",
+  "livingCells": "tirik hujayralar",
+  "save": "Saqlash",
+  "back": "Bek bek bek"
+}

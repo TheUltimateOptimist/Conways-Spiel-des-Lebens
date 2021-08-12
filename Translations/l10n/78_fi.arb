@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Elämän Peli",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Aloita Animaatio, Kun olet valinnut joitakin aloitussoluja tai olet luonut ne satunnaisesti",
+  "description": "Pelin on suunnitellut matemaatikko John Horton Conway(1937-2020) vuonna 1970. Pelikenttä on jaettu riveihin ja sarakkeisiin ja on ihanteellisesti äärettömän suuri. Jokainen ruuturuutu on soluautomaatti tai solu, joka voi olla joko elävä tai kuollut. Jokaisen solun elintila muuttuu jokaisella kierroksella naapurisoluista riippuen yksinkertaisten sääntöjen mukaan. Kuollut solu, jossa on tasan kolme elävää naapuria, syntyy uudelleen seuraavassa sukupolvessa. Elävät solut, joissa on alle kaksi elävää naapuria, kuolevat yksinäisyyteen seuraavassa sukupolvessa. Elävä solu, jossa on kaksi tai kolme elävää naapuria, pysyy elossa seuraavassa sukupolvessa. Elävät solut, joissa on enemmän kuin kolme elävää naapuria, kuolevat liikakansoitukseen seuraavassa sukupolvessa. Näiden neljän yksinkertaisen säännön avulla tietyistä alkukuvioista luodaan pelin aikana erilaisia monimutkaisia rakenteita. Jotkut pysyvät muuttumattomina, toiset värähtelevät ja toiset taas kasvavat tai menevät ohi. Pelikentällä liikkuu joitakin rakenteita, niin sanottuja purjelentokoneita. Erilaisia alkutähtikuvioita jatkuvasti kokeilemalla voidaan löytää mielenkiintoisia kuvioita.",
+  "enterTheNumberOfLivingCells": "Anna elävien solujen määrä",
+  "livingCells": "elävät solut",
+  "save": "Tallentaa",
+  "back": "Takaisin"
+}

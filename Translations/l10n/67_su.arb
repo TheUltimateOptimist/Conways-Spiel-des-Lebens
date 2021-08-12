@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Game Of Life",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Ngamimitian Animasi sanggeus anjeun geus dipilih sababaraha dimimitian sél atawa anjeun geus dihasilkeun eta sacara acak",
+  "description": "Game of Kahirupan ieu dirancang dina taun 1970 ku matematikawan John Horton Kosta(1937-2020). Widang maén dibagi kana barisan jeung kolom jeung ideally infinitely gede. Unggal grid kuadrat hiji sélular automaton atawa sél, nu bisa boh hirup atawa paéh. Kaayaan kahirupan unggal sél robah jeung unggal babak gumantung kana sél tatangga, di handap ieu aturan basajan. Paéh sél jeung kahayang tilu hirup tatanggana reborn di generasi saterusna. Sél hirup jeung kurang ti dua hirup tatanggana paeh katiisan dina generasi saterusna. Hirup sél jeung dua atawa tilu hirup tatanggana tetep hirup di generasi saterusna. Sél hirup jeung leuwih ti tilu hirup tatanggana maot ti overpopulation dina generasi saterusna. Jeung ieu opat aturan basajan, rupa-rupa struktur kompléks nu dijieun ti tangtu mimiti pola dina kursus game. Sababaraha tetep unchanged, batur oscillate, jeung masih batur tumuwuh atawa lulus. Sababaraha struktur, nu disebut gliders, pindah dina widang maén. Ku terus nyoba kaluar beda-beda mimiti constellations, pola metot bisa kapanggih.",
+  "enterTheNumberOfLivingCells": "Tuliskeun Nomer sél hirup",
+  "livingCells": "sél hirup",
+  "save": "Simpen",
+  "back": "Deui"
+}

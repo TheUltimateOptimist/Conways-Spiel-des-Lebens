@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Gyvenimo Žaidimas",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Pradėkite animaciją po to, kai pasirinkote kai kurias pradines ląsteles arba jas generavote atsitiktinai",
+  "description": "Gyvenimo žaidimą 1970 m. sukūrė matematikas John Horton Conway (1937-2020). Žaidimo laukas yra padalintas į eilutes ir stulpelius ir Idealiai yra be galo didelis. Kiekvienas tinklelio kvadratas yra korinis automatas arba ląstelė, kuri gali būti gyva arba mirusi. Kiekvienos ląstelės gyvenimo būklė keičiasi su kiekvienu raundu, priklausomai nuo kaimyninių ląstelių, laikantis paprastų taisyklių. Vėlesnėje kartoje atgimsta negyva ląstelė su lygiai trimis gyvais kaimynais. Gyvosios ląstelės, turinčios mažiau nei du gyvus kaimynus, miršta nuo vienatvės vėlesnėje kartoje. Gyvoji ląstelė su dviem ar trimis gyvais kaimynais išlieka gyva vėlesnėje kartoje. Gyvosios ląstelės, turinčios daugiau nei tris gyvus kaimynus, miršta nuo pernelyg didelio gyventojų skaičiaus vėlesnėje kartoje. Su šiomis keturiomis paprastomis taisyklėmis iš tam tikrų pradinių modelių žaidimo eigoje sukuriamos įvairios sudėtingos struktūros. Kai kurie lieka nepakitę, kiti svyruojasi, o dar kiti auga arba praeina. Kai kurios struktūros, vadinamieji Sklandytuvai, juda žaidimo lauke. Nuolat išbandydami skirtingus pradinius žvaigždynus, galima atrasti įdomių modelių.",
+  "enterTheNumberOfLivingCells": "Įveskite gyvų ląstelių skaičių",
+  "livingCells": "gyvos ląstelės",
+  "save": "Išsaugoti",
+  "back": "Atgal"
+}

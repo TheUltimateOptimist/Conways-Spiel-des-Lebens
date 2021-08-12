@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Game Of Life",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Start the Animation ശേഷം നിങ്ങൾ, തിരഞ്ഞെടുത്ത ചില തുടങ്ങുന്ന കളങ്ങൾ. അല്ലെങ്കിൽ, നിങ്ങൾ generated അവരെ എങ്ങിനെയെങ്കിലും",
+  "description": "The Game of Life was designed in 1970 by മതെമറ്റിചിഅൻ ജോണ് Horton Conway(1937-2020). The playing field is divided into rows and columns and is എബൌട്ട് infinitely large. ഓരോ ഗ്രിഡ് square is a cellular automaton അല്ലെങ്കിൽ സെൽ, which can be either alive or dead. സംസ്ഥാന ജീവിതത്തിന്റെ ഓരോ സെൽ മാറ്റങ്ങൾ with each round അനുസരിച്ച് അയൽ കോശങ്ങൾ, താഴെ simple rules. ഒരു dead cell with exactly three living neighbors is reborn in the തുടർന്നുള്ള തലമുറ. Living cells with fewer than two living അയൽക്കാർ മരിച്ചു ഏകാന്തത ൽ തുടർന്നുള്ള തലമുറ. A living cell with two or three living അയൽക്കാർ remains alive in the തുടർന്നുള്ള തലമുറ. Living cells with more than three living അയൽക്കാർ die നിന്ന് overpopulation ൽ തുടർന്നുള്ള തലമുറ. With these four simple rules, a variety of complex structures are created നിന്ന് ചില പ്രാരംഭ patterns in the course of the game. ചില നിലനിൽക്കും മാറ്റമില്ലാതെ, മറ്റുള്ളവരെ oscillate, ഇപ്പോഴും മറ്റുള്ളവരെ വളരാൻ അല്ലെങ്കിൽ കടന്നു. ചില ഘടനകൾ, അങ്ങനെ-വിളിച്ചു gliders, move on the playing field. By constantly trying out different പ്രാരംഭ നക്ഷത്രരാശികളുടെ കലാരൂപം [r], രസകരമായ patterns can be discovered.",
+  "enterTheNumberOfLivingCells": "Enter the Number of living cells",
+  "livingCells": "ജീവനുള്ള കോശങ്ങളാണ്",
+  "save": "സംരക്ഷിക്കുക",
+  "back": "Back"
+}

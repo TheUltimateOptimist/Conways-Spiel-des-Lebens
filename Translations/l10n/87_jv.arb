@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Game Gesang",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Miwiti Animasi sawise sampeyan wis milih sawetara miwiti sel utawa sampeyan duwe kui wong-wong mau acak",
+  "description": "Game Gesang iki dirancang ing taun 1970 déning matématikawan Yohanes Horton Conway(1937-2020). Lapangan playing dipérang dadi larik lan kolom lan saenipun maha gedhe. Saben kothak meter punika automaton mrna utawa sel, kang bisa dadi salah siji urip utawa mati. Negara saka urip saben sel owah-owahan karo saben babak gumantung ing tetanggan sel, ing ngisor iki aturan prasaja. Mati sel karo persis telung urip tanggi reborn ing generasi sakteruse. Sel urip karo kurang saka rong urip tanggi mati saka kasepen ing generasi sakteruse. Urip sel karo loro utawa telu sing manggen tanggi tetep urip ing generasi sakteruse. Sel urip karo luwih saka telung urip tanggi mati saka overpopulation ing generasi sakteruse. Karo iki papat aturan prasaja, macem-macem struktur komplek sing digawe saka tartamtu dhisikan pola ing course saka game. Sawetara tetep panggah, wong oscillate, lan isih wong tuwuh utawa pass. Sawetara struktur, sing dadi-disebut gliders, mindhah ing lapangan playing. Dening saya nyoba metu macem-macem dhisikan rasi lintang, pola menarik bisa ditemokaké.",
+  "enterTheNumberOfLivingCells": "Ketik Nomer saka sel urip",
+  "livingCells": "sel urip",
+  "save": "Nyimpen",
+  "back": "Bali"
+}

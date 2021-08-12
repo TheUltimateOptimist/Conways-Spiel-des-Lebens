@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Jwèt Ki Bay Lavi",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Kòmanse Animasyon apre sa, ou te chwazi kèk kòmanse selil oswa ou gen pwodwi yo owaza",
+  "description": "Jwèt la nan Lavi ki te fèt nan 1970 pa matematisyen Jan Horton Conway(1937-2020). Se jaden an ap jwe divize an ranje ak kolòn epi li se depreferans ki enfiniman gwo. Chak griy kare se yon selilè otomat oswa selil, ki ka swa ki vivan oswa ki mouri. Eta a nan lavi sa a ki nan chak selil chanje avèk chak wonn depann sou selil vwazen, sa yo ki senp règ yo. Yon moun mouri selil ki gen egzakteman twa vwazen k ap viv se reborn nan la ki vin apre jenerasyon. Selil k ap viv ak mwens pase de vwazen k ap viv mouri nan solitid nan la ki vin apre jenerasyon. Yon k ap viv selilè ak de oswa twa k ap viv vwazen yo rete vivan nan la ki vin apre jenerasyon. Selil k ap viv ak plis pase twa vwazen k ap viv mouri nan surpepleman nan la ki vin apre jenerasyon. Avèk sa yo kat yo ki senp règ yo, yon varyete de estrikti konplèks yo ki te kreye soti nan sèten inisyal modèl nan kou a nan jwèt la. Gen kèk rete chanje, lòt moun fluktue, epi li toujou lòt moun grandi oubyen yon pas pou. Gen kèk estrikti, se konsa yo rele dèlta, deplase sou jaden an ap jwe. Pa toujou ap eseye soti diferan inisyal la douz gwoup zetwal, ki enteresan menm modèl yo ka dwe dekouvri.",
+  "enterTheNumberOfLivingCells": "Antre nan Kantite a nan selil yo k ap viv",
+  "livingCells": "selil yo k ap viv",
+  "save": "Sove",
+  "back": "Tounen"
+}

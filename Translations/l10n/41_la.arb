@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Vestibulum Vitae",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Ante Animationem post vos elegi quidam incipiens cellulis aut generatur eos passim",
+  "description": "Vestibulum Vitae erat intentio 1970 per mathematician John Horton Conway(1937-2020). In ludens agro dividitur in porticus et columnas et est aequitas infinite magna. Quisque eget quadratum est cellularum automaton, aut cellam, quae potest esse vel vivus vel mortuus. Status vitae utriusque cell mutationes inter rotundum secundum in finitimis cellulis, sequenti simplex praecepta. A mortuis cell prorsus tres vivere vicini est reborn in subsequentem generationem. Vivere cellulis cum paucioribus quam duobus vivere vicinis mori de solitudine in subsequentem generationem. Vivens cella, cum duo vel tres vivere vicinis manet vivus in subsequentem generationem. Vivere cellulis magis quam tres vivere vicinis mori ex overpopulation in subsequentem generationem. Cum haec quattuor simplex praecepta, a varietate complexu structurae sunt creata a quibusdam prima exemplaria in cursus ipsum. Aliquam manet immutata, alii oscillate, et alii nascuntur aut transeat. Quidam structurae, ut aiunt, labentes, movere in ludens agro. Per constanter experiri diversis prima sidera, commodo exemplaria reperta.",
+  "enterTheNumberOfLivingCells": "Intra Numerum vivere cellulis",
+  "livingCells": "vivere cellulis",
+  "save": "Nisi",
+  "back": "Retro"
+}

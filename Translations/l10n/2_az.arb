@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Həyat Oyunu",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Bir neçə ilkin hüceyrəni seçdikdən və ya təsadüfi olaraq yaratdıqdan sonra animasiyanı başladın",
+  "description": "Həyat Oyunu 1970-ci ildə riyaziyyatçı con Horton Konvey(1937-2020) tərəfindən hazırlanmışdır. Oyun sahəsi satır və sütunlara bölünür və ideal olaraq sonsuz böyükdür. Hər bir grid kvadrat canlı və ya ölü ola biləcək bir hüceyrə maşın və ya bir hüceyrədir. Sadə qaydalara əməl edərkən hər bir hüceyrənin həyati vəziyyəti qonşu hüceyrələrdən asılı olaraq hər bir turla dəyişir. Tam üç canlı qonşuları ilə ölü qəfəs sonrakı nəsil yenidən doğulur. Az iki canlı qonşuları ilə yaşayan hüceyrələri sonrakı nəsil təklik ölmək. İki və ya üç canlı qonşuları ilə canlı qəfəs sonrakı nəsil diri-diri qalır. Üç canlı qonşuları ilə yaşayan hüceyrələri sonrakı nəsil overpopulation ölmək. Bu dörd sadə qayda ilə oyun ərzində müəyyən ilkin şablonlardan bir çox mürəkkəb strukturlar yaranır. Bəziləri dəyişməz qalır, bəziləri tərəddüd edir, bəziləri isə böyüyür və ya keçir. Glider adlanan bəzi strukturlar oyun sahəsində hərəkət etməyə davam edir. Beləliklə, daim müxtəlif ilkin bürcləri sınamaqla, maraqlı nümunələri tapmaq olar.",
+  "enterTheNumberOfLivingCells": "Canlı hüceyrələrin sayını daxil edin",
+  "livingCells": "canlı hüceyrələr",
+  "save": "Saxlamaq",
+  "back": "Geri"
+}

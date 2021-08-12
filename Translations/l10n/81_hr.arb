@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Igranje Života",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Pokrenite animaciju nakon što odaberete više početnih ćelija ili ih slučajno generirate",
+  "description": "Igra života razvila je 1970. godine matematičar John Horton Conway (1937-2020). Igralište je podijeljeno u retke i stupce i idealno je beskonačno veliko. Svaki kvadrat rešetke je stanični automat ili stanica koja može biti živa ili mrtva. Životno stanje svake stanice mijenja se sa svakim krugom, ovisno o susjednim stanicama, uz poštivanje jednostavnih pravila. Mrtva stanica s točno tri živa susjeda ponovno se rodi u kasnijoj generaciji. Žive stanice s manje od dva živa susjeda umiru od usamljenosti u kasnijoj generaciji. Živi kavez s dva ili tri živa susjeda ostaje živ u kasnijoj generaciji. Žive stanice s više od tri žive susjede umiru od prekomjerne populacije u kasnijoj generaciji. S ovim četiri jednostavna pravila iz određenih početnih obrazaca tijekom igre nastaju mnoge složene strukture. Neki ostaju nepromijenjeni, drugi oklijevaju, a drugi rastu ili prolaze. Neke strukture, nazvane jedrilice, nastavljaju se kretati po igralištu. Dakle, stalno pokušavajući različite početne konstelacije, moguće je otkriti zanimljive obrasce.",
+  "enterTheNumberOfLivingCells": "Unesite broj živih stanica",
+  "livingCells": "žive stanice",
+  "save": "Spremi",
+  "back": "Natrag."
+}

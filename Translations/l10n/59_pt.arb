@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Jogo Da Vida",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Iniciar a animação depois de ter escolhido algumas células iniciais ou de As ter gerado aleatoriamente",
+  "description": "O jogo da vida foi projetado em 1970 pelo matemático John Horton Conway(1937-2020). O campo de jogo é dividido em linhas e colunas e é idealmente infinitamente grande. Cada quadrícula quadrada é um autômato celular ou célula, que pode estar viva ou morta. O estado de vida de cada célula muda com cada rodada, dependendo das células vizinhas, seguindo regras simples. Uma célula morta com exactamente três vizinhos vivos renasce na geração seguinte. Células vivas com menos de dois vizinhos vivos morrem de solidão na geração seguinte. Uma célula viva com dois ou três vizinhos vivos permanece viva na geração seguinte. Células vivas com mais de três vizinhos vivos morrem de superpopulação na geração seguinte. Com estas quatro regras simples, uma variedade de estruturas complexas são criadas a partir de certos padrões iniciais no decorrer do jogo. Alguns permanecem inalterados, outros oscilam, e outros ainda crescem ou passam. Algumas estruturas, os chamados planadores, movem-se no campo de jogo. Ao experimentar constantemente constelações iniciais diferentes, padrões interessantes podem ser descobertos.",
+  "enterTheNumberOfLivingCells": "Indique o número de células vivas",
+  "livingCells": "células vivas",
+  "save": "Salvar",
+  "back": "Volta"
+}

@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Xogo Da Vida",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Comezar a Animación despois de ter escollido algúns a partir de células ou que ten xerado a eles de forma aleatoria",
+  "description": "O Xogo da Vida foi deseñado en 1970 por matemático John Horton Conway(1937-2020). O campo de xogo divídese en filas e columnas e é ideal infinitamente grande. Cada reixa praza é un móbil autómata ou celular, que pode ser vivo ou morto. O estado de vida de cada célula cambia con cada rolda dependendo das células veciñas, seguindo regras simples. Un morto móbil con exactamente tres viven veciños renace na posterior xeración. Células vivas con menos de dous veciños que viven morrer de soidade na posterior xeración. Unha célula viva, con dous ou tres viven veciños permanece vivo na posterior xeración. Células vivas con máis de tres veciños que viven morrer de superpoboación no posterior xeración. Con estes catro regras simples, unha variedade de estruturas complexas son creado a partir de certas inicial patróns no curso do xogo. Algúns permanecen inalterados, outros oscilar, e aínda a outros a crecer ou pasar. Algunhas estruturas, chamado planadores, mover-se no campo de xogo. Por constantemente intentando diferentes inicial constelacións, patróns interesantes pode ser descuberto.",
+  "enterTheNumberOfLivingCells": "Introduza o Número de células vivas",
+  "livingCells": "células vivas",
+  "save": "Gardar",
+  "back": "De volta"
+}

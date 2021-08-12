@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Hayat Oyunu",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Bazı başlangıç hücrelerini seçtikten veya rastgele oluşturduktan sonra animasyonu başlatın",
+  "description": "Yaşam oyunu 1970 yılında matematikçi John Horton Conway (1937-2020) tarafından tasarlandı. Oyun Alanı satır ve sütunlara ayrılmıştır ve ideal olarak sonsuz boyuttadır. Her kafes karesi, canlı veya ölü olabilen bir hücresel Otomat veya hücredir. Tek tek hücrelerin yaşam durumu, basit kurallara uyarak komşu hücrelere bağlı olarak her turda değişir. Tam olarak üç canlı komşusu olan ölü bir hücre, sonraki nesilde yeniden doğar. İkiden az canlı komşuya sahip canlı hücreler, sonraki nesilde yalnızlıktan ölürler. İki veya üç canlı komşusu olan canlı bir hücre, sonraki nesilde hayatta kalır. Üçten fazla canlı komşuya sahip canlı hücreler, sonraki nesilde aşırı nüfustan ölür. Bu dört basit kural, oyun boyunca belirli başlangıç Kalıplarından çok sayıda karmaşık yapı oluşturur. Bazıları değişmeden kalır, Diğerleri salınır ve diğerleri tekrar büyür veya kaybolur. Planörler olarak adlandırılan bazı yapılar oyun alanında hareket eder. Bu nedenle, çeşitli başlangıç Takımyıldızlarını sürekli olarak deneyerek ilginç desenler keşfedilebilir.",
+  "enterTheNumberOfLivingCells": "Canlı hücre sayısını girin",
+  "livingCells": "canlı hücreler",
+  "save": "Kaydetmek",
+  "back": "Geri"
+}

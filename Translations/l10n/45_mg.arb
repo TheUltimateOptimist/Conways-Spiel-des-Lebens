@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Lalao Ny Fiainana",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Manomboka ny Fanentanana rehefa avy nisafidy ny sasany manomboka sela na efa niteraka azy tsapaka",
+  "description": "Ny Lalao ny Fiainana natao tamin'ny taona 1970 amin'ny matematisiana Jaona Horton Conway(1937-2020). Ny filalaovana dia nozaraina ho andalana sy ny andry ary ny tena tsara lavitra lehibe. Isaky ny grid kianja dia finday automaton na efitra, izay azo, na velona na maty. Ny toetry ny fiainana ny sela tsirairay fiovana amin'ny manodidina tsirairay arakaraka ny mpifanolo-bodirindrina sela, manaraka fitsipika tsotra. Maty cell mihitsy telo velona ny mpiara-monina dia teraka indray ao amin'ny taranaka manaraka. Sela velona amin'ny latsaky ny roa velona ny mpiara-monina ho faty manirery ao ny taranaka manaraka. Velona efitra roa na telo velona ny mpiara-monina dia mbola velona ao ny taranaka manaraka. Sela velona mihoatra ny telo velona ny mpiara-monina ho faty avy amin'ny isan'ny mponina ao ny taranaka manaraka. Amin'ny efatra ireo fitsipika tsotra, isan-karazany ny rafitra sarotra dia noforonina avy amin'ny sasany voalohany ny lamina eo amin'ny mazava ho azy fa ny lalao. Ny sasany mbola tsy miova ny hafa oscillate, ary mbola hitombo ny hafa na mizara. Ny sasany rafitra, antsoina hoe gliders, mihetsika eo amin'ny kianja filalaovana. Amin'ny alalan'ny miezaka foana avy isan-karazany voalohany constellations, mahaliana ny lamina mety ho hita.",
+  "enterTheNumberOfLivingCells": "Ampidiro ny Isan'ny sela velona",
+  "livingCells": "sela velona",
+  "save": "Hamonjy",
+  "back": "Indray"
+}

@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Game Of Life",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Mulai Animasi itu setelah anda telah memilih beberapa bermula sel-sel atau anda telah dihasilkan mereka secara rawak",
+  "description": "Permainan Kehidupan telah direka pada tahun 1970 oleh ahli matematik John Horton Conway(1937-2020). Padang permainan dibahagikan ke baris dan tiang dan adalah sebaik-baiknya tak terhingga besar. Setiap grid persegi adalah automaton selular atau sel, mana boleh ada yang hidup atau mati. Keadaan hidup setiap sel perubahan dengan setiap bulat bergantung pada jiran sel-sel, mengikuti peraturan yang mudah. Sel mati dengan tiga hidup jiran-jiran adalah terlahir di generasi berikutnya. Sel-sel hidup dengan kurang dari dua tamu jiran-jiran mati kesepian di generasi berikutnya. Sel yang hidup dengan dua atau tiga hidup jiran-jiran masih hidup di generasi berikutnya. Sel-sel hidup dengan lebih banyak daripada tiga hidup jiran-jiran mati daripada kelebihan populasi di generasi berikutnya. Dengan empat peraturan yang mudah, pelbagai kompleks struktur yang dibuat dari awal tertentu pola dalam perjalanan permainan. Ada yang berubah, orang lain berayun, dan lain-lain masih tumbuh atau lulus. Beberapa struktur, disebut glider, bergerak di lapangan bermain. Secara terus-menerus mencoba keluar berbeza awal gugusan bintang, corak yang menarik boleh ditemui.",
+  "enterTheNumberOfLivingCells": "Masukkan Nombor sel-sel hidup",
+  "livingCells": "sel-sel hidup",
+  "save": "Simpan",
+  "back": "Kembali"
+}

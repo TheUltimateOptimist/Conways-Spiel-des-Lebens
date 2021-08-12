@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Leikur Á Lífi",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Byrja Fjör eftir að þú hefur valið sumir byrja frumur eða þú hefur vakið þeirra af handahófi",
+  "description": "Leikinn af Lífi var hannað í 1970 með stærðfræðingur John Horton Conway(1937-2020). Íþróttavöllur er skipt í raðir og dálka og er helst óendanlega stór. Hver rist square er frumu vélmenni eða klefi, sem hægt er að annaðhvort dauður eða lifandi. Ríkið af lífi hvers klefi breytingar með hverjum hring eftir á nálægum frumur, eftir einfalt reglur. Dauður klefa með nákvæmlega þrjá lifandi nágranna er endurfæðast í næstu kynslóð. Frumur lifandi með færri en tvo lifandi nágranna deyja úr einmanaleika í næstu kynslóð. Lifandi klefa með tvær eða þrjár lifandi nágranna enn á lífi í næstu kynslóð. Frumur lifandi með meira en þrjú lifandi nágranna deyja úr offjölgun í næstu kynslóð. Með þessum fjórum einfalt reglur, ýmsum flókna eru búin til úr ákveðnum fyrstu mynstur á meðan á leik. Sumir óbreytt, aðrir sveiflast, og enn aðra vaxa eða fara. Sumir mannvirki, svokallaða svifflugur, fara á spila á sviði. Af stöðugt að reyna út mismunandi fyrstu stjörnumerki, áhugaverð getur verið uppgötvað.",
+  "enterTheNumberOfLivingCells": "Sláðu Fjölda lifandi frumur",
+  "livingCells": "frumur lifandi",
+  "save": "Sparaðu",
+  "back": "Aftur"
+}

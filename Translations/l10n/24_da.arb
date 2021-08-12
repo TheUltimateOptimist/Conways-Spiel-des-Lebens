@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Spil Af Livet",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Start animationen, når du har valgt nogle startceller, eller du har genereret dem tilfældigt",
+  "description": "Livets spil blev designet i 1970 af matematiker John Horton con .ay(1937-2020). Spillefeltet er opdelt i rækker og kolonner og er ideelt uendeligt stort. Hver gitter firkant er en cellulær automat eller celle, som kan være enten levende eller død. Livstilstanden for hver celle ændres med hver runde afhængigt af de nærliggende celler efter enkle regler. En død celle med nøjagtigt tre levende naboer genfødes i den efterfølgende generation. Levende celler med færre end to levende naboer dør af ensomhed i den efterfølgende generation. En levende celle med to eller tre levende naboer forbliver i live i den efterfølgende generation. Levende celler med mere end tre levende naboer dør af overbefolkning i den efterfølgende generation. Med disse fire enkle regler skabes en række komplekse strukturer ud fra visse indledende mønstre i løbet af spillet. Nogle forbliver uændrede, andre svinger, og stadig andre vokser eller passerer. Nogle strukturer, såkaldte svævefly, bevæger sig på spilleområdet. Ved konstant at prøve forskellige indledende konstellationer kan interessante mønstre opdages.",
+  "enterTheNumberOfLivingCells": "Indtast antallet af levende celler",
+  "livingCells": "levende celler",
+  "save": "Spare",
+  "back": "Tilbage"
+}

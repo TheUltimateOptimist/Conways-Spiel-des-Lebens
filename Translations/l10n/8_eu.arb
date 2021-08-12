@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Bizi-Jokoa",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Hasteko Animazioa ondoren honako hau aukeratu duzu batzuk hasita zelulak edo sortzen dituzun horiek ausaz",
+  "description": "Bizi-Jokoa diseinatu zen 1970 arabera matematikari John Horton Conway(1937-2020). Jokatzeko eremuaren banatzen da, errenkadak eta zutabeak, eta haien infinituki handiak. Bakoitzak sareta karratu bat da, zelula automata edo zelula da, hau bai izan daiteke, bizirik edo hilda. Egoera bizi-zelula bakoitzean aldaketak txanda bakoitzaren arabera aldameneko zelula, honako arau sinple. Hildako bat telefono batera zehazki hiru bizi diren bizilagunak da birsortzen ondorengo belaunaldi. Bizi-zelulak baino gutxiago dituzten bi bizi diren bizilagunak hil bakardadea ondorengo belaunaldi. Bizi bat eskuko bi edo hiru bizi diren bizilagunak aztarnak bizirik ondorengo belaunaldi. Bizi-zelulak hiru baino gehiago bizi diren bizilagunak hiltzen overpopulation ondorengo belaunaldi. Horiek lau simple arauak, hainbat egitura konplexuak sortzen dira, batetik, zenbait hasierako ereduak jokoaren ikastaroa. Batzuk gelditzen dira, beste batzuk oszilatu, eta oraindik beste batzuk hazten edo gainditu. Egitura batzuk, hain-izeneko gliders, mugitu joko zelaian. Etengabe saiatzen hasierako beste konstelazioak, interesgarria ereduak aurkitu daitezke.",
+  "enterTheNumberOfLivingCells": "Zenbakia idatzi, bizi-zelulak",
+  "livingCells": "zelula bizi",
+  "save": "Gorde",
+  "back": "Atzera"
+}

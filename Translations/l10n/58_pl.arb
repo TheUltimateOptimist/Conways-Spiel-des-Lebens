@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Gra W Życie",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Uruchom animację po wybraniu niektórych komórek startowych lub wygenerowaniu ich losowo",
+  "description": "Gra życia została opracowana w 1970 roku przez matematyka Johna Hortona Conwaya (1937-2020). Pole gry jest podzielone na wiersze i kolumny i idealnie nieskończenie duże. Każdy kwadrat siatki jest automatem komórkowym lub komórką, która może być żywa lub martwa. Stan życiowy każdej komórki zmienia się z każdą rundą w zależności od sąsiednich komórek, przy zachowaniu prostych zasad. Martwa komórka z dokładnie trzema żywymi sąsiadami rodzi się na nowo w następnym pokoleniu. Żywe komórki z mniej niż dwoma żywymi sąsiadami umierają z samotności w następnym pokoleniu. Żywa komórka z dwoma lub trzema żywymi sąsiadami pozostaje przy życiu w następnym pokoleniu. Żywe komórki z więcej niż trzema żywymi sąsiadami umierają z powodu przeludnienia w następnym pokoleniu. Dzięki tym czterem prostym regułom wiele złożonych struktur powstaje z określonych wzorców początkowych w trakcie gry. Niektóre pozostają takie same, inne wahają się, a jeszcze inne rosną lub przechodzą. Niektóre struktury, zwane szybowcami, nadal poruszają się po boisku. Tak więc, stale próbując różnych początkowych konstelacji, można odkryć interesujące wzorce.",
+  "enterTheNumberOfLivingCells": "Wprowadź liczbę żywych komórek",
+  "livingCells": "żywe komórki",
+  "save": "Zapisz",
+  "back": "Powrót"
+}

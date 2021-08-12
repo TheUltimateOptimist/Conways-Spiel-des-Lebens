@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Igra Življenja",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Začni animacijo po tem, ko si izbral nekaj začetnih celic ali pa si jih naključno ustvaril",
+  "description": "Leta 1970 je igro življenja oblikoval matematik John Horton Conway(1937-2020). Igrišče je razdeljeno v vrste in stebre in je idealno neskončno veliko. Vsak kvadrat mreže je celični avtomat ali celica, ki je lahko živa ali mrtva. Stanje življenja vsake celice se z vsakim krogom spreminja glede na sosednje celice, pri čemer se upoštevajo preprosta pravila. Mrtva celica z točno tremi živimi sosedi se ponovno rodi v naslednji generaciji. Žive celice z manj kot dvema živima sosedoma umrejo zaradi osamljenosti v naslednji generaciji. Živa celica z dvema ali tremi živimi sosedi živi v naslednji generaciji. Žive celice z več kot tremi živimi sosedi umrejo zaradi prenaseljenosti v naslednji generaciji. S temi štirimi preprostimi pravili se iz določenih začetnih vzorcev v teku igre ustvari vrsta kompleksnih struktur. Nekateri ostanejo nespremenjeni, drugi nihajo, drugi pa rastejo ali minejo. Nekatere strukture, tako imenovani jadralci, gredo na igrišče. Z nenehnim preizkušanjem različnih začetnih ozvezdij lahko odkrijemo zanimive vzorce.",
+  "enterTheNumberOfLivingCells": "Vnesite Število živih celic",
+  "livingCells": "žive celice",
+  "save": "Shrani",
+  "back": "Nazaj"
+}

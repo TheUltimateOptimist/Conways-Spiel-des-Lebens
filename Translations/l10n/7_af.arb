@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Spel Van Die Lewe",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Begin die Animasie nadat jy gekies het sommige begin selle of jy het hulle gegenereer lukraak",
+  "description": "Die Spel van die Lewe was wat ontwerp is in 1970 deur wiskundige John Horton Conway(1937-2020). Die speelveld is verdeel in rye en kolomme en is ideaal oneindig groot. Elke rooster vierkante is'n sellulêre outomaat of sel, wat kan wees, hetsy lewend of dood. Die toestand van die lewe van elke sel verander met elke ronde, afhangende van die naburige selle, die volgende eenvoudige reëls. 'n dooie sel met presies drie lewende bure is wedergebore in die daaropvolgende generasie. Lewende selle met minder as twee lewende bure doodgaan van eensaamheid in die daaropvolgende generasie. 'n lewende sel met twee of drie lewende bure bly lewe in die daaropvolgende generasie. Lewende selle met meer as drie lewende bure sterf as gevolg van oorbevolking in die daaropvolgende generasie. Met hierdie vier eenvoudige reëls, 'n verskeidenheid van komplekse strukture is geskep uit sekere aanvanklike patrone in die loop van die spel. Sommige onveranderd bly, ander ossilleer, en nog ander groei of slaag. Sommige strukture, die sogenaamde sweeftuie, beweeg op die speelveld. Deur voortdurend probeer om uit verskillende aanvanklike konstellasies, interessante patrone ontdek kan word.",
+  "enterTheNumberOfLivingCells": "Tik die Nommer van lewende selle",
+  "livingCells": "lewende selle",
+  "save": "Red",
+  "back": "Terug"
+}

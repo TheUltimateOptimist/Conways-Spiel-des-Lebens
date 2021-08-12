@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Game O Te Ora",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Tīmata i te Hākoritanga i muri kua whiriwhiria e koe etahi tīmata pūtau ranei e kua hangaia ratou matapōkeretia",
+  "description": "Ko te Kēmu o te Ora, i hangaia i te tau 1970 i mathematician John Horton Conway(1937-2020). Ko te mara tākaro kei te wehea i roto i nga rarangi, me tīwae me te mea tano ore te nui. Ia mātiti tapawha ko te pūtau automaton pūtau ranei, e taea e rānei te ora ranei te mate. Te āhua o te ora o ia pūtau huringa ki ia a tawhio noa i runga i te tata i te pūtau, e whai ake nei ture māmā. I te mate, pūtau rite e toru e noho tata ana, kei te fanau i roto i te muri whakatupuranga. Te ora te pūtau ki te iti atu i te rua ora tata mate o te mo'emo'e i roto i te muri whakatupuranga. Te ora te pūtau ki te rua ranei e toru e noho tata ana, e noho ora i roto i te muri whakatupuranga. E noho ana ruma ki te neke atu i te toru e noho tata ana, te mate i opurutanga i roto i te muri whakatupuranga. Ki enei ture ohie e wha, he momo o ngā hanganga matatini e hanga i etahi tauira tuatahi i roto i te akoranga o te kēmu. Ētahi noho re re, ētahi atu oscillate, me te tonu etahi i te tupu ranei haere. Ētahi hanganga, whakawehenga pera-ka karanga, neke i runga i te mara tākaro. E tonu te tamata i roto i te rerekē te tuatahi tātai whetū, ngā tauira ka taea e kia kitea.",
+  "enterTheNumberOfLivingCells": "E tomo te Maha o ngā pūtau ora",
+  "livingCells": "pūtau e ora",
+  "save": "Pupuri",
+  "back": "Hoki"
+}

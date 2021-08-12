@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Mchezo Wa Maisha",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Kuanza Michoro baada ya kuchaguliwa baadhi ya kuanzia seli au una yao nasibu yanayotokana",
+  "description": "Mchezo wa Maisha ilikuwa iliyoundwa katika miaka ya 1970 na hisabati John Horton Conway(1937-2020). Shamba kucheza imegawanywa katika safu na nguzo na ni walau kubwa kubwa. Kila gridi ya mraba ni automaton ya simu za mkononi au simu, ambayo inaweza kuwa ama wakiwa hai au wafu. Hali ya maisha ya kila kiini na mabadiliko ya kila pande zote kulingana na jirani seli, kufuata kanuni rahisi. Maiti ya simu na hasa maisha tatu majirani ni waliozaliwa upya katika baadae kizazi. Seli hai na chini ya mbili majirani wanaoishi kufa ya upweke katika baadae kizazi. Hai simu na mbili au tatu wanaoishi majirani bado hai katika baadae kizazi. Seli hai kwa zaidi ya tatu ya maisha majirani kufa kutokana na overpopulation katika baadae kizazi. Na hizi nne kanuni rahisi, aina ya miundo ya tata ni kuundwa kutoka kwa baadhi ya awali mwelekeo katika kozi ya mchezo. Baadhi ya kubaki unchanged, wengine bembea, na bado wengine kukua au kupita. Baadhi ya miundo, hivyo-inayoitwa nyiririko, hoja juu ya shamba kucheza. Na mara kwa mara kujaribu nje mbalimbali awali nyota, mifumo ya kuvutia inaweza kuwa aligundua.",
+  "enterTheNumberOfLivingCells": "Kuingia Idadi ya seli hai",
+  "livingCells": "seli hai",
+  "save": "Ila",
+  "back": "Nyuma"
+}

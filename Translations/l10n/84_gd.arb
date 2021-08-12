@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Geama-Beatha",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Tòisich a 'Beothachadh an dèidh dhut a bhith air a thaghadh air cuid a' tòiseachadh air ceallan no agad a chruthachadh iad air thuaiream",
+  "description": "Tha an Geama a ' Bheatha a chaidh a dhealbhadh ann an 1970 le mathematician, John Horton Conway(1937-2020). A 'cluich an achadh tha e roinnte ann an sreathan agus colbh agus tha e' ann mar-sin mòr. Tha gach griod ceàrnagach a tha cellular automaton no cealla, a dh'fhaodas a bhith an dara cuid beò no marbh. The state of life gach cealla na h-atharrachaidhean ri gach cuairt a-rèir a 'neighboring ceallan, a' leantainn riaghailtean sìmplidh. A dead cealla le dìreach triùir a ' fuireach neighbors tha reborn ann an eile às dèidh ginealach. Tha a 'fuireach ceallan ri nas lugha na dhà a tha a' fuireach neighbors die na aonaranachd ann an eile às dèidh ginealach. Tha a 'fuireach cealla le dithis no triùir a' fuireach neighbors fhathast beò ann an eile às dèidh ginealach. Tha a 'fuireach ceallan le barrachd air trì dhiubh a' fuireach neighbors die bho overpopulation ann an eile às dèidh ginealach. Leis na ceithir sìmplidh riaghailtean, measgachadh de iom-fhillte structaran a tha air an cruthachadh cuid a 'chiad pàtranan a' chùrsa a ' gheama. Chan eil unchanged, cuid eile oscillate, agus fhathast feadhainn eile a ' fàs no seachad air. Tha cuid a structairean, so-called gliders, gluais air an raon-cluiche a ' cluich. Le an-còmhnaidh a 'feuchainn a-mach eadar-dhealaichte a' chiad reul-bhadan, inntinneach pàtranan s urrainn dhut a lorg.",
+  "enterTheNumberOfLivingCells": "Cuir a-steach an Àireamh de cheallan a tha a ' fuireach",
+  "livingCells": "cheallan a tha a ' fuireach",
+  "save": "Sàbhail",
+  "back": "Air ais"
+}

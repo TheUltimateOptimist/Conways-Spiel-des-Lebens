@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Cluiche Na Beatha",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Tús a chur leis an Beochan tar éis a roghnaíonn tú cuid ag tosú cealla nó a bhfuil tú a ghintear iad go randamach",
+  "description": "An Cluiche den Saol a bhí deartha i 1970 ag matamaiticeoir John Horton Conway(1937-2020). Is é an bpáirc imeartha roinnte ina sraitheanna agus colúin agus tá go hidéalach infinitely mór. Gach greille cearnach cheallacha uathoibreán nó cill, is féidir a bheith beo nó marbh. An staid den saol de gach cille athruithe le gach babhta ag brath ar na cealla aice láimhe, rialacha seo a leanas simplí. Marbh teileafóin go díreach le trí maireachtála comharsana tá sé reborn sa ghlúin ina dhiaidh sin. Cealla beo le níos lú ná dhá comharsana maireachtála bás de uaigneas i an ghlúin ina dhiaidh sin. Suí cill le dhá nó trí ina gcónaí comharsana fós beo i an ghlúin ina dhiaidh sin. Cealla beo le níos mó ná trí comharsana maireachtála bás ó overpopulation ar an ghlúin ina dhiaidh sin. Leis na ceithre rialacha simplí, ar éagsúlacht na casta tá struchtúir a cruthaíodh ó áirithe tosaigh patrúin i rith an chluiche. Roinnt athrú, daoine eile a oscillate, agus daoine eile fós ag fás nó pas a fháil. Roinnt struchtúir, mar sin-ar a dtugtar faoileoirí, bogadh ar an bpáirc imeartha. Ag iarraidh i gcónaí amach éagsúla tosaigh constellations, patrúin suimiúil gur féidir a fuair sé amach.",
+  "enterTheNumberOfLivingCells": "Dul isteach ar an Líon na cealla beo",
+  "livingCells": "cealla beo",
+  "save": "A shábháil",
+  "back": "Ar ais"
+}

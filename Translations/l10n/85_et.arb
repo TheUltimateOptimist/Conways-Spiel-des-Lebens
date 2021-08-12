@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Elumäng",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Käivitage animatsioon pärast seda, kui olete valinud mõned käivitusrakud või olete need juhuslikult genereerinud",
+  "description": "Elu mängu kujundas 1970. aastal matemaatik John Horton Conway (1937-2020). Võrdsed on jagatud ridade ja veergude ja on ideaalis lõpmata suur. Iga võrgu ruut on rakuline automaat või rakk, mis võib olla kas elus või surnud. Iga raku elu seisund muutub iga vooruga sõltuvalt naaberrakkudest, järgides lihtsaid reegleid. Surnud rakk, millel on täpselt kolm elavat naabrit, sünnib järgmises põlvkonnas. Elusrakud, millel on vähem kui kaks elavat naabrit, surevad järgneva põlvkonna üksindusse. Elav rakk, millel on kaks või kolm elavat naabrit, jääb ellu järgnevas põlvkonnas. Elusrakud, millel on rohkem kui kolm elavat naabrit, surevad järgneva põlvkonna ülerahvastatuse tõttu. Nende nelja lihtsa reegliga luuakse mängu käigus teatud esialgsetest mustritest mitmesuguseid keerukaid struktuure. Mõned jäävad muutumatuks, teised võnkuvad ja teised kasvavad või läbivad. Mõned struktuurid, nn purilennukid, liiguvad mänguväljakul. Proovides pidevalt erinevaid algseid tähtkujusid, saab avastada huvitavaid mustreid.",
+  "enterTheNumberOfLivingCells": "Sisesta elusrakkude arv",
+  "livingCells": "elusrakud",
+  "save": "Salvestama",
+  "back": "Tagasi"
+}

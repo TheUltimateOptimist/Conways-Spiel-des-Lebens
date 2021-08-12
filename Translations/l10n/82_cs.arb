@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Hra Života",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Spusťte animaci poté, co jste si vybrali některé výchozí buňky nebo jste je vygenerovali náhodně",
+  "description": "Hru života navrhl v roce 1970 matematik John Horton Conway (1937-2020). Hrací pole je rozděleno na řádky a sloupce a je ideálně nekonečně velké. Každý čtverec mřížky je buněčný automat nebo buňka, která může být živá nebo mrtvá. Stav života každé buňky se mění s každým kolem v závislosti na sousedních buňkách podle jednoduchých pravidel. Mrtvá buňka s přesně třemi živými sousedy se znovu zrodila v následující generaci. Živé buňky s méně než dvěma živými sousedy umírají na osamělost v následující generaci. Živá buňka se dvěma nebo třemi živými sousedy zůstává naživu v následující generaci. Živé buňky s více než třemi živými sousedy umírají na přelidnění v následující generaci. S těmito čtyřmi jednoduchými pravidly jsou v průběhu hry vytvořeny různé složité struktury z určitých počátečních vzorů. Některé zůstávají nezměněny, jiné oscilují a jiné rostou nebo procházejí. Některé struktury, takzvané kluzáky, se pohybují na hřišti. Neustálým zkoušením různých počátečních souhvězdí lze objevit zajímavé vzory.",
+  "enterTheNumberOfLivingCells": "Zadejte počet živých buněk",
+  "livingCells": "živé buňky",
+  "save": "Uložit",
+  "back": "Zpět"
+}

@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Gioco della vita",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Avviare l'animazione dopo aver scelto alcune celle di partenza o li avete generati in modo casuale",
+  "description": "Il gioco della vita è stato progettato nel 1970 dal matematico John Horton Conway(1937-2020). Il campo di gioco è diviso in righe e colonne ed è idealmente infinitamente grande. Ogni quadrato della griglia è un automa cellulare o una cella, che può essere vivo o morto. Lo stato di vita di ogni cella cambia con ogni turno a seconda delle celle vicine, seguendo semplici regole. Una cellula morta con esattamente tre vicini viventi rinasce nella generazione successiva. Le cellule viventi con meno di due vicini viventi muoiono di solitudine nella generazione successiva. Una cellula vivente con due o tre vicini viventi rimane viva nella generazione successiva. Le cellule viventi con più di tre vicini viventi muoiono per sovrappopolazione nella generazione successiva. Con queste quattro semplici regole, una varietà di strutture complesse vengono create da alcuni modelli iniziali nel corso del gioco. Alcuni rimangono invariati, altri oscillano e altri ancora crescono o passano. Alcune strutture, i cosiddetti alianti, si muovono sul campo di gioco. Provando costantemente diverse costellazioni iniziali, si possono scoprire modelli interessanti.",
+  "enterTheNumberOfLivingCells": "Inserisci il numero di cellule viventi",
+  "livingCells": "cellule viventi",
+  "save": "Salvare",
+  "back": "Indietro"
+}

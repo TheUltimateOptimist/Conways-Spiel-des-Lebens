@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Gêm Bywyd",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Dechreuwch y Animeiddio ar ôl i chi wedi dewis rhai celloedd yn dechrau neu os ydych wedi creu nhw ar hap",
+  "description": "Yn y Gêm o Fywyd ei gynllunio yn 1970 gan mathemategydd John Horton Conway(1937-2020). Mae'r cae chwarae yn cael ei rannu i mewn rhesi a cholofnau ac yn ddelfrydol anfeidrol fawr. Mae pob un sgwâr grid yn gellog automaton neu gell, a all fod naill ai yn fyw neu yn farw. Y wladwriaeth o fywyd pob cell yn newid gyda phob rownd yn dibynnu ar y celloedd cyfagos, yn dilyn rheolau syml. Marw cell gyda union tri gymdogion sy'n byw yn reborn yn y genhedlaeth dilynol. Celloedd byw gyda llai na dau cymdogion sy'n byw yn marw o unigrwydd yn y genhedlaeth dilynol. Byw cell gyda dau neu dri o gymdogion sy'n byw yn parhau i fod yn fyw yn y genhedlaeth dilynol. Celloedd byw gyda mwy na thri o gymdogion sy'n byw yn marw o gorboblogi yn y genhedlaeth dilynol. Gyda hyn pedwar o reolau syml, amrywiaeth o strwythurau cymhleth yn cael eu creu gan rai cychwynnol patrymau yn y cwrs y gêm. Mae rhai yn aros yn ddigyfnewid, ac eraill oscillate, ac yn dal i eraill yn tyfu neu drosglwyddo. Rhai strwythurau, felly-a elwir yn gleiderau, yn symud ar y cae chwarae. Gan gyson yn ceisio ar wahanol cychwynnol cytserau, patrymau diddorol y gellir eu darganfod.",
+  "enterTheNumberOfLivingCells": "Nodwch y Nifer o gelloedd byw",
+  "livingCells": "celloedd byw",
+  "save": "Arbed",
+  "back": "Yn ôl"
+}

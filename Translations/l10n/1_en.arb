@@ -1,0 +1,30 @@
+{
+  "gameOfLife": "Game Of Life",
+  "@gameOfLife":{
+    "description": "Game Of Life"
+  },
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Start the Animation after you have chosen some starting cells or you have generated them randomly",
+  "@startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly":{
+    "description": "Start the Animation after you have chosen some starting cells or you have generated them randomly"
+  },
+  "description": "Das Spiel des Lebens wurde 1970 von dem Mathematiker John Horton Conway(1937-2020) entworfen. Das Spielfeld ist in Zeilen und Spalten eingeteilt und im Idealfall unendlich groß. Jedes Gitterquadrat ist ein zellulärer Automat bzw. eine Zelle, welche entweder lebendig oder tot sein kann. Der Lebenszustand der einzelnen Zellen ändert sich mit jeder Runde abhängig von den Nachbarzellen unter der Befolgung einfacher Regeln. Eine tote Zelle mit genau drei lebenden Nachbarn wird in der Folgegeneration neu geboren. Lebende Zellen mit weniger als zwei lebenden Nachbarn sterben in der Folgegeneration an Einsamkeit. Eine lebende Zelle mit  zwei oder drei lebenden Nachbarn bleibt in der Folgegeneration am Leben. Lebende Zellen mit mehr als drei lebenden Nachbarn sterben in der Folgegeneration an Überbevölkerung. Mit diesen vier einfachen Regeln entsteht aus bestimmten Anfangsmustern im Laufe des Spiels eine Vielzahl komplexer Strukturen. Einige bleiben unverändert, andere oszillieren und wieder andere wachsen oder vergehen. Manche Strukturen, sogenannte Gleiter, bewegen sich auf dem Spielfeld fort. Durch ständiges Ausprobieren verschiedener Anfangskonstellationen lassen sich somit interessante Muster entdecken.",
+  "@description":{
+    "description": "Das Spiel des Lebens wurde 1970 von dem Mathematiker John Horton Conway(1937-2020) entworfen. Das Spielfeld ist in Zeilen und Spalten eingeteilt und im Idealfall unendlich groß. Jedes Gitterquadrat ist ein zellulärer Automat bzw. eine Zelle, welche entweder lebendig oder tot sein kann. Der Lebenszustand der einzelnen Zellen ändert sich mit jeder Runde abhängig von den Nachbarzellen unter der Befolgung einfacher Regeln. Eine tote Zelle mit genau drei lebenden Nachbarn wird in der Folgegeneration neu geboren. Lebende Zellen mit weniger als zwei lebenden Nachbarn sterben in der Folgegeneration an Einsamkeit. Eine lebende Zelle mit  zwei oder drei lebenden Nachbarn bleibt in der Folgegeneration am Leben. Lebende Zellen mit mehr als drei lebenden Nachbarn sterben in der Folgegeneration an Überbevölkerung. Mit diesen vier einfachen Regeln entsteht aus bestimmten Anfangsmustern im Laufe des Spiels eine Vielzahl komplexer Strukturen. Einige bleiben unverändert, andere oszillieren und wieder andere wachsen oder vergehen. Manche Strukturen, sogenannte Gleiter, bewegen sich auf dem Spielfeld fort. Durch ständiges Ausprobieren verschiedener Anfangskonstellationen lassen sich somit interessante Muster entdecken."
+  },
+  "enterTheNumberOfLivingCells": "Enter the Number of living cells",
+  "@enterTheNumberOfLivingCells":{
+    "description": "Enter the Number of living cells"
+  },
+  "livingCells": "living cells",
+  "@livingCells":{
+    "description": "living cells"
+  },
+  "save": "Save",
+  "@save":{
+    "description": "Save"
+  },
+  "back": "Back",
+  "@back":{
+    "description": "Back"
+  }
+}

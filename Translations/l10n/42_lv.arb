@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Dzīves Spēle",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Sāciet animāciju pēc tam, kad esat izvēlējies dažas sākuma šūnas vai esat tos ģenerējis nejauši",
+  "description": "Dzīves spēli 1970. gadā izstrādāja matemātiķis Džons Hortons Konvejs (1937-2020). Spēles laukums ir sadalīts rindās un kolonnās, un tas ir ideāli bezgalīgi liels. Katrs režģa laukums ir šūnu automāts vai šūna, kas var būt dzīvs vai miris. Katras šūnas dzīves stāvoklis mainās ar katru kārtu atkarībā no blakus esošajām šūnām, ievērojot vienkāršus noteikumus. Mirušā šūna ar tieši trim dzīviem kaimiņiem ir atdzimis nākamajā paaudzē. Dzīvās šūnas ar mazāk nekā diviem dzīviem kaimiņiem mirst no vientulības nākamajā paaudzē. Dzīvā šūna ar diviem vai trim dzīviem kaimiņiem paliek dzīvs nākamajā paaudzē. Dzīvās šūnas ar vairāk nekā trim dzīviem kaimiņiem mirst no pārapdzīvotības nākamajā paaudzē. Ar šiem četriem vienkāršiem noteikumiem dažādas sarežģītas struktūras tiek veidotas no noteiktiem sākotnējiem modeļiem spēles gaitā. Daži paliek nemainīgi, citi svārstās, un vēl citi aug vai iet. Dažas struktūras, tā sauktie Planieri, pārvietojas uz spēles laukuma. Pastāvīgi izmēģinot dažādas sākotnējās zvaigznājus, var atklāt interesantus modeļus.",
+  "enterTheNumberOfLivingCells": "Ievadiet dzīvo šūnu skaitu",
+  "livingCells": "dzīvās šūnas",
+  "save": "Saglabāt",
+  "back": "Atpakaļ"
+}

@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Lojë E Jetës",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Filloni Animacionin pasi të keni zgjedhur disa qeliza fillestare ose i keni gjeneruar ato rastësisht",
+  "description": "Loja E Jetës është projektuar në vitin 1970 nga matematikani John Horton Conway(1937-2020). Fusha e lojës është e ndarë në rreshta dhe kolona dhe është idealisht pafundësisht e madhe. Çdo katror i rrjetit është një automatik qelizor ose qelizë, e cila mund të jetë ose e gjallë ose e vdekur. Gjendja e jetës së secilës qelizë ndryshon me secilën raund në varësi të qelizave fqinje, duke ndjekur rregulla të thjeshta. Një qelizë e vdekur me saktësisht tre fqinjë të gjallë rilind në gjeneratën pasuese. Qelizat e gjalla me më pak se dy fqinjë të gjallë vdesin nga vetmia në gjeneratën pasuese. Një qelizë e gjallë me dy ose tre fqinjë të gjallë mbetet e gjallë në gjeneratën pasuese. Qelizat e gjalla me më shumë se tre fqinjë të gjallë vdesin nga mbipopullimi në gjeneratën pasuese. Me këto katër rregulla të thjeshta, një larmi strukturash komplekse krijohen nga modele të caktuara fillestare gjatë lojës. Disa mbeten të pandryshuara, të tjerët lëkunden, dhe ende të tjerët rriten ose kalojnë. Disa struktura, të ashtuquajturat gliders, lëvizin në fushën e lojës. Duke provuar vazhdimisht yjësi të ndryshme fillestare, mund të zbulohen modele interesante.",
+  "enterTheNumberOfLivingCells": "Vendosni Numrin e qelizave të gjalla",
+  "livingCells": "qelizat e gjalla",
+  "save": "Ruaj",
+  "back": "Mbrapa"
+}

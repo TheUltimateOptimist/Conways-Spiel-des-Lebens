@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Joc De La Vida",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Començar l'Animació després que hagi escollit algunes de partida de les cèl·lules o que han generat ells a l'atzar",
+  "description": "El Joc de la Vida es va dissenyar el 1970 pel matemàtic John Horton Conway(1937-2020). El camp de joc està dividit en files i columnes i és un infinitament gran. Cada taula de la plaça és un autòmats cel·lulars o cel·lular, que pot ser vius o morts. L'estat de la vida de cada cel·la canvia amb cada ronda en funció de les cèl·lules veïnes, seguint unes regles senzilles. Una mort cel·lular amb exactament tres veïns que viuen reneix en la posterior generació. Les cèl·lules vives amb menys de dos veïns que viuen moren de soledat en la posterior generació. Una cèl·lula viva amb dos o tres que viuen els veïns es manté viu en la posterior generació. Les cèl·lules vives, amb més de tres veïns que viuen mor a causa de la sobrepoblació en la posterior generació. Amb aquestes quatre regles simples, una gran varietat d'estructures complexes són creats a partir d'una certa inicial patrons en el transcurs del joc. Alguns romanen sense canvis, altres oscil·lar, i d'altres que creixen o passen. Algunes estructures, anomenada planadors, moure's en el terreny de joc. Per constantment provant diferents inicial constel·lacions, patrons interessants poden ser descobert.",
+  "enterTheNumberOfLivingCells": "Introduïu el Nombre de cèl·lules vives",
+  "livingCells": "les cèl·lules vives",
+  "save": "Guardar",
+  "back": "Tornar"
+}

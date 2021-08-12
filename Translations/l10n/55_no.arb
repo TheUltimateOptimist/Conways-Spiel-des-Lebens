@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Spillet Av Livet",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Start-Animasjonen når du har valgt noen starter celler eller du har generert dem tilfeldig",
+  "description": "Spillet av Livet ble utviklet i 1970 av matematikeren John Horton Conway(1937-2020). Banen er delt inn i rader og kolonner, og er en ideell uendelig stor. Hvert rutenett square er en cellulær automat eller celle, som kan være enten levende eller døde. Tilstanden av livet til hver celle endringer med hver runde avhengig av tilstøtende celler, følgende enkle regler. En død celle med nøyaktig tre levende naboer er gjenfødt i den påfølgende generasjon. Levende celler med færre enn to levende naboer til å dø av ensomhet i den påfølgende generasjon. En levende celle med to eller tre levende naboer er fortsatt levende i den påfølgende generasjon. Levende celler med mer enn tre levende naboer dør av overbefolkning i påfølgende generasjon. Med disse fire enkle regler, en rekke kompliserte strukturer som er opprettet fra visse første mønstre i løpet av spillet. Noen forblir uendret, andre svinge, og atter andre til å vokse eller pass. Noen strukturer, såkalte seilfly, flytte på banen. Ved stadig å prøve ut ulike første konstellasjoner, interessante mønstre kan bli oppdaget.",
+  "enterTheNumberOfLivingCells": "Angi Antallet levende celler",
+  "livingCells": "levende celler",
+  "save": "Lagre",
+  "back": "Tilbake"
+}

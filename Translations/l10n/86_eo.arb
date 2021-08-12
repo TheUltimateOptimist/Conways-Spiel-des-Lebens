@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Ludo De Vivo",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Komenci la Kuraĝigo post kiam vi elektis iuj komencante? elo # a? vi havas produktis ilin hazarde",
+  "description": "La Ludo de Vivo estis desegnita en 1970 fare de matematikisto John Horton Conway(1937-2020). La ludkampo estas dividita en vicoj kaj kolumnoj kaj estas ideale malfinie granda. Ĉiu grid square estas#? ela # a? tomato # a?#? elo, kiu povas esti ĉu viva aŭ morta. La stato de la vivo de ĉiu ĉelo ŝanĝoj kun ĉiu rondo depende de la najbaraj ĉeloj, sekvante simplajn regulojn. Mortinta? elo kun ekzakte tri vivantaj najbaroj estas renaskita en la posta generacio. Vivantaj ĉeloj kun malpli ol du vivantaj najbaroj morti de soleco en la posta generacio. Vivanta ĉelo kun du aŭ tri vivantaj najbaroj restas vivaj en la posta generacio. Vivantaj ĉeloj kun pli ol tri vivantaj najbaroj morti de troloĝateco en la posta generacio. Kun tiuj kvar simplaj reguloj, vario de kompleksaj strukturoj estas kreitaj de certa komenca skemoj en la kurso de la ludo. Kelkaj restas senŝanĝa, aliaj oscili, kaj ankoraŭ aliaj kreski aŭ pasi. Kelkaj strukturoj, la tiel nomata aviado, movi sur la ludkampo. De konstante elprovanta malsamajn komenca konstelacioj, interesa ŝablonoj povas esti eltrovita.",
+  "enterTheNumberOfLivingCells": "Eniri la Nombron de la vivantaj ĉeloj",
+  "livingCells": "vivantaj ĉeloj",
+  "save": "Savi",
+  "back": "Reen"
+}

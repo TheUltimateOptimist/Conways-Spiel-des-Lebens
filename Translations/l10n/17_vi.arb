@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Trò Chơi Của Cuộc Sống",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Bắt đầu Hoạt hình sau khi bạn đã chọn một số bắt đầu tế bào hoặc bạn đã tạo ra chúng một cách ngẫu nhiên",
+  "description": "Trò chơi của cuộc Sống đã được thiết kế năm 1970 toán học John Horton Conway(1937-2020). Sân chơi được chia thành hàng và cột và là lý tưởng vô cùng lớn. Mỗi ô là một máy tự động di động hay di động, đó có thể là còn sống hay đã chết. Tình trạng của cuộc sống của mỗi thay đổi tế bào với mỗi vòng tùy thuộc vào các tế bào lân cận, theo quy tắc đơn giản. Một tế bào chết với chính xác ba người hàng xóm sống được tái sinh trong các thế hệ tiếp theo. Các tế bào sống với ít hơn hai khách hàng xóm chết của sự cô đơn trong thế hệ tiếp theo. Một tế bào sống với hai hay ba người hàng xóm sống vẫn còn sống trong thế hệ tiếp theo. Các tế bào sống với hơn ba sống hàng xóm chết từ số trong các thế hệ tiếp theo. Với những bốn quy tắc đơn giản, một loạt các cấu trúc phức tạp được tạo ra từ một số mẫu đầu tiên trong quá trình trò chơi. Một số vẫn không thay đổi, những người khác dao động, và còn những người khác phát triển rất nhanh. Một cấu trúc, vì vậy gọi là tàu lượn, di chuyển trên sân chơi. Bởi liên tục cố gắng trong đầu tiên khác chòm sao, mô hình thú vị có thể phát hiện ra.",
+  "enterTheNumberOfLivingCells": "Nhập vào các Số các tế bào sống",
+  "livingCells": "các tế bào sống",
+  "save": "Tiết kiệm",
+  "back": "Trở lại"
+}

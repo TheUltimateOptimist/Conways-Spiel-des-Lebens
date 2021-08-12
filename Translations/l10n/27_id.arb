@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Permainan Kehidupan",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Memulai Animasi Setelah Anda telah memilih beberapa sel memulai atau Anda telah menghasilkan mereka secara acak",
+  "description": "Permainan Hidup dirancang pada tahun 1970 oleh matematikawan John Horton Conway (1937-2020). Lapangan bermain dibagi menjadi baris dan kolom dan idealnya jauh besar. Setiap kotak jaringannya adalah automaton selular atau sel, yang bisa hidup atau mati. Keadaan kehidupan setiap sel berubah dengan setiap putaran tergantung pada sel tetangga, mengikuti aturan sederhana. Sebuah sel mati dengan tepat tiga tetangga hidup lahir kembali dalam generasi berikutnya. Sel hidup dengan lebih sedikit dari dua tetangga yang hidup mati kesepian dalam generasi berikutnya. Sebuah sel hidup dengan dua atau tiga tetangga hidup tetap hidup dalam generasi berikutnya. Sel hidup dengan lebih dari tiga tetangga yang hidup mati karena kelebihan penduduk dalam generasi berikutnya. Dengan empat aturan sederhana, berbagai struktur kompleks dibuat dari pola awal tertentu dalam permainan. Beberapa tetap tidak berubah, yang lain berosilasi, dan masih yang lain tumbuh atau lulus. Beberapa struktur, yang disebut gliders, bergerak di lapangan bermain. Dengan terus-menerus mencoba keluar rasi bintang yang berbeda, pola menarik dapat ditemukan.",
+  "enterTheNumberOfLivingCells": "Masukkan jumlah sel hidup",
+  "livingCells": "sel hidup",
+  "save": "Simpan",
+  "back": "Mundur"
+}

@@ -1,9 +1,10 @@
 import 'dart:async';
-
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:conways_spiel_des_lebens/infoScreen.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'objects.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 int rowLength = 15;
 int columnLength = 20;
@@ -19,7 +20,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Conway's Spiel des Lebens",
+      title: "Conway's Game Of Life",
+      localizationsDelegates: [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate
+      ],
+      supportedLocales: allSupportedLocales,
       home: MyHomePage(),
     );
   }
@@ -46,11 +54,6 @@ class _MyHomePageState extends State<MyHomePage> {
         setState(() {
           updateLifeStatuses();
           mutations = mutations + 1;
-        });
-      }
-      else{
-        setState(() {
-          
         });
       }
     });
@@ -82,9 +85,12 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ],
           title: Text(
-            "Conways Spiel des Lebens",
+            "Conway's " + AppLocalizations.of(context)!.gameOfLife,
             style: TextStyle(
-                fontSize: 26, color: Colors.green, fontWeight: FontWeight.bold, fontFamily: "IndieFlower"),
+                fontSize: 26,
+                color: Colors.green,
+                fontWeight: FontWeight.bold,
+                fontFamily: "IndieFlower"),
           ),
           backgroundColor: Colors.blueGrey[900],
           toolbarHeight: 70,
@@ -101,45 +107,100 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   playButton(),
                   randomButton(),
-                  ObjectButton(object: "Blinker", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "Uhr", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "Kröte", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "Bipole", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "Tripole", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
+                  ObjectButton(
+                    object: "Blinker",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "Uhr",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "Kröte",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "Bipole",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "Tripole",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
                   //ObjectButton(object: "Pulsator", onPressed: (){setState(() {
-                   // listOfLifes = listOfLifes;
-                 // });},),
+                  // listOfLifes = listOfLifes;
+                  // });},),
                   //ObjectButton(object: "Tümmler", onPressed: (){setState(() {
                   //  listOfLifes = listOfLifes;
-                 // });},),
-                  ObjectButton(object: "Oktagon", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "Gleiter", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "Segler1", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "Segler2", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "Segler3", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
-                  ObjectButton(object: "r-Pentomino", onPressed: (){setState(() {
-                    listOfLifes = listOfLifes;
-                  });},),
+                  // });},),
+                  ObjectButton(
+                    object: "Oktagon",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "Gleiter",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "Segler1",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "Segler2",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "Segler3",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
+                  ObjectButton(
+                    object: "r-Pentomino",
+                    onPressed: () {
+                      setState(() {
+                        listOfLifes = listOfLifes;
+                      });
+                    },
+                  ),
                 ],
               ),
             ),
@@ -159,7 +220,7 @@ class _MyHomePageState extends State<MyHomePage> {
         margin: EdgeInsets.only(left: 15, top: 20),
         child: SizedBox(
             child: Text(
-          "Wähle Anfangskästchen aus oder generiere sie zufällig und starte die Animation",
+          AppLocalizations.of(context)!.startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly,
           style: TextStyle(
             color: Colors.white,
             fontSize: 15,
@@ -169,13 +230,16 @@ class _MyHomePageState extends State<MyHomePage> {
     } else {
       return Container(
           child: Slider(
+              onChanged: (double newValue) {
+                changesPerSecond = newValue;
+              },
               activeColor: Colors.green,
               inactiveColor: Colors.blueGrey[900],
               min: 1,
               max: 10,
               divisions: 9,
               value: changesPerSecond,
-              onChanged: (double newValue) {
+              onChangeEnd: (double newValue) {
                 changesPerSecond = newValue;
                 print(changesPerSecond);
                 timer.cancel();
@@ -358,7 +422,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Navigator.pop(context, int.parse(controller.text));
           },
           child: Text(
-            "Save",
+            AppLocalizations.of(context)!.save,
             style: TextStyle(
               color: Colors.white,
               fontSize: 15,
@@ -370,7 +434,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Navigator.pop(context, -1);
           },
           child: Text(
-            "Back",
+            AppLocalizations.of(context)!.back,
             style: TextStyle(
               color: Colors.white,
               fontSize: 15,
@@ -380,7 +444,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ],
       backgroundColor: Colors.blueGrey[900],
       title: Text(
-        "Enter the number of living cells",
+        AppLocalizations.of(context)!.enterTheNumberOfLivingCells,
         style: TextStyle(
           color: Colors.green,
           fontSize: 20,
@@ -399,7 +463,7 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Colors.white,
             ),
           ),
-          hintText: "living cells",
+          hintText: AppLocalizations.of(context)!.livingCells,
           hintStyle: TextStyle(
             color: Colors.white,
             fontSize: 15,
@@ -598,3 +662,95 @@ mixin Test {
     }
   }
 }
+
+//list with all supported locales
+const List<Locale> allSupportedLocales = [
+  const Locale('az'),
+  const Locale('sq'),
+  const Locale('am'),
+  const Locale('en'),
+  const Locale('ar'),
+  const Locale('hy'),
+  const Locale('af'),
+  const Locale('eu'),
+  const Locale('ba'),
+  const Locale('be'),
+  const Locale('bn'),
+  const Locale('my'),
+  const Locale('bg'),
+  const Locale('bs'),
+  const Locale('cy'),
+  const Locale('hu'),
+  const Locale('vi'),
+  const Locale('ht'),
+  const Locale('gl'),
+  const Locale('nl'),
+  const Locale('el'),
+  const Locale('ka'),
+  const Locale('gu'),
+  const Locale('da'),
+  const Locale('he'),
+  const Locale('yi'),
+  const Locale('id'),
+  const Locale('ga'),
+  const Locale('it'),
+  const Locale('is'),
+  const Locale('es'),
+  const Locale('kk'),
+  const Locale('kn'),
+  const Locale('ca'),
+  const Locale('ky'),
+  const Locale('zh'),
+  const Locale('ko'),
+  const Locale('xh'),
+  const Locale('km'),
+  const Locale('lo'),
+  const Locale('la'),
+  const Locale('lv'),
+  const Locale('lt'),
+  const Locale('lb'),
+  const Locale('mg'),
+  const Locale('ms'),
+  const Locale('ml'),
+  const Locale('mt'),
+  const Locale('mk'),
+  const Locale('mi'),
+  const Locale('mr'),
+  const Locale('mn'),
+  const Locale('de'),
+  const Locale('ne'),
+  const Locale('no'),
+  const Locale('pa'),
+  const Locale('fa'),
+  const Locale('pl'),
+  const Locale('pt'),
+  const Locale('ro'),
+  const Locale('ru'),
+  const Locale('sr'),
+  const Locale('si'),
+  const Locale('sk'),
+  const Locale('sl'),
+  const Locale('sw'),
+  const Locale('su'),
+  const Locale('tg'),
+  const Locale('th'),
+  const Locale('tl'),
+  const Locale('ta'),
+  const Locale('tt'),
+  const Locale('te'),
+  const Locale('tr'),
+  const Locale('uz'),
+  const Locale('uk'),
+  const Locale('ur'),
+  const Locale('fi'),
+  const Locale('fr'),
+  const Locale('hi'),
+  const Locale('cs'),
+  const Locale('sv'),
+  const Locale('gd'),
+  const Locale('et'),
+  const Locale('eo'),
+  const Locale('jv'),
+  const Locale('ja'),
+];
+  //end of file

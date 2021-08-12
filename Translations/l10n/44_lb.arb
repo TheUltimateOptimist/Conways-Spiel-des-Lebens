@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Spill vum Liewen",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Starten Si d ' Animatioun, nodeem Si e puer Startzellen ausgewielt oder zoufälleg generéiert hunn",
+  "description": "D ' Spill vum Liewen gouf 1970 vum Mathematiker John Horton Conway(1937-2020) entworf. D ' Spielfeld ass an Zeilen an Spalten agedeelt an am Idealfall onendlech grouss. All Gitterquadrat ass e zellulärer Automat bzw. eng Zell, déi entweder lebendig oder enger anerer sprooch liesen ka sinn. De Lebenszustand vun den eenzelnen Zellen ännert sech mat all Ronn ofhängeg vun de Nachbarzellen ënner der Befolgung einfacher Regelen. Eng doudeger Zell mat genee dräi iwwerfalen Nopere gëtt an der Folgegeneration nei gebuer. Lieweg Zellen mat manner wéi zwee liewege Noper stierwen an der Folgegeneration un Einsamkeit. Eng lieweg Zell mat zwou oder dräi iwwerfalen Nopere bleift an der Folgegeneration am Liewen. Lieweg Zellen mat méi wéi dräi liewegen Noper stierwen an der Folgegeneration un Überbevölkerung. Mat dëse véier einfachen Regelen entsteet aus bestëmmte Anfangsmustern am Laf vum Match Vill komplex Strukturen. E puer bleiwen onverännert, aner oszillieren an nees aner wachsen oder vergaange. Verschidde Strukturen, déi sougenannt Gleiter, bewege sech op dem Spielfeld fort. Duerch stännëgt Ausprobieren verschiddene Anfangskonstellationen loosse sech esou interessant Muster entdecken.",
+  "enterTheNumberOfLivingCells": "Gitt d ' Unzuel vun de liewegen Zellen e",
+  "livingCells": "lieweg Zellen",
+  "save": "Späicheren",
+  "back": "Zréck"
+}

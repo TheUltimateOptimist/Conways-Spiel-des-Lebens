@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Jeu De La Vie",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Démarrez l'animation après avoir choisi certaines cellules de départ ou les avoir générées de manière aléatoire",
+  "description": "Le Jeu de la Vie a été créée en 1970 par le Mathématicien John Horton Conway(1937-2020) conçu. Le terrain de jeu est divisé en lignes et colonnes et idéalement infiniment grand. Chaque carré de grille est un automate cellulaire ou une cellule qui peut être vivante ou morte. L'état de vie des cellules individuelles change à chaque tour en fonction des cellules voisines en suivant des règles simples. Une cellule morte avec exactement trois voisins vivants renaît dans la génération suivante. Les Cellules vivantes avec moins de deux Voisins vivants meurent dans la génération suivante de Solitude. Une cellule vivante avec deux ou trois voisins vivants reste vivante dans la génération suivante. Les cellules vivantes avec plus de trois voisins vivants meurent de surpopulation dans la génération suivante. Avec ces quatre règles simples, un grand nombre de structures complexes sont créées à partir de certains modèles initiaux au cours du jeu. Certains restent inchangés, d'autres oscillent et d'autres encore grandissent ou disparaissent. Certaines structures, appelées planeurs, se déplacent sur le terrain. En essayant constamment différentes constellations initiales, on peut ainsi découvrir des modèles intéressants.",
+  "enterTheNumberOfLivingCells": "Entrez le nombre de cellules vivantes",
+  "livingCells": "cellules vivantes",
+  "save": "Enregistrer",
+  "back": "Arrière"
+}

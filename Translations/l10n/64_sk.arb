@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Hra Života",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Spustite animáciu potom, čo ste si vybrali niektoré štartovacie bunky alebo ste ich vygenerovali náhodne",
+  "description": "Hra života bola navrhnutá v roku 1970 matematikom Johnom Hortonom Conwayom (1937-2020). Hracie pole je rozdelené do riadkov a stĺpcov a je ideálne nekonečne veľké. Každý štvorec mriežky je bunkový automat alebo bunka, ktorá môže byť živá alebo mŕtva. Stav života každej bunky sa mení s každým kolom v závislosti od susedných buniek podľa jednoduchých pravidiel. V nasledujúcej generácii sa znovuzrodí mŕtva bunka s presne tromi žijúcimi susedmi. Živé bunky s menej ako dvoma žijúcimi susedmi zomierajú osamelosťou v nasledujúcej generácii. Živá bunka s dvoma alebo tromi žijúcimi susedmi zostáva nažive v nasledujúcej generácii. Živé bunky s viac ako tromi žijúcimi susedmi zomierajú z preľudnenia v nasledujúcej generácii. S týmito štyrmi jednoduchými pravidlami sa v priebehu hry vytvárajú rôzne zložité štruktúry z určitých počiatočných vzorov. Niektoré zostávajú nezmenené, iné oscilujú a ešte iné rastú alebo prechádzajú. Niektoré štruktúry, takzvané klzáky, sa pohybujú na ihrisku. Neustálym skúšaním rôznych počiatočných konštelácií je možné objaviť zaujímavé vzory.",
+  "enterTheNumberOfLivingCells": "Zadajte počet živých buniek",
+  "livingCells": "živé bunky",
+  "save": "Uložiť",
+  "back": "Späť"
+}

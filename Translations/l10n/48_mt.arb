@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Logħba Tal-Ħajja",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Tibda l-Animazzjoni wara li inti għażilt xi bidu ċelloli jew għandek iġġenerat minnhom bl-addoċċ",
+  "description": "Il-Logħba tal-Ħajja kien imfassal fl-1970 mill-matematiku John Horton Scott(1937-2020). L-ekwu huwa maqsum-ringieli u l-kolonni u idealment ħafna kbar. Kull grilja kwadru huwa ċellulari automaton jew taċ-ċelluli, li jista'jkun jew ħaj jew mejta. L-istat tal-ħajja ta'kull taċ-ċelluli l-bidliet ma ' kull ċiklu skond il-ġar iċ-ċelluli, wara sempliċi-regoli. Mejta taċ-ċelluli bl-eżattament tliet ġirien għajxien huwa inxtara fil-ġenerazzjonijiet sussegwenti. Jgħixu ċ-ċelluli l-anqas minn żewġ-ġirien ħajja die tal-solitudni fil-ġenerazzjonijiet sussegwenti. L-għajxien taċ-ċellula b'żewġ jew tliet għajxien ġirien jibqa'ħaj fil-ġenerazzjonijiet sussegwenti. Jgħixu ċ-ċelluli ma'aktar minn tliet għajxien ġirien jmutu minn popolazzjoni żejda fil-ġenerazzjonijiet sussegwenti. Ma'dawn l-erba'sempliċi-regoli, il-varjetà tal-kumpless tal-istrutturi maħluqa minn ċerti inizjali mudelli fil-kors tal-logħba. Xi jibqgħu l-istess, oħrajn jitbandal, u oħrajn għadhom jikbru jew jgħaddu. Xi strutturi, l-hekk imsejħa gliders, timxi fuq il-kundizzjonijiet tal-kamp. Minn dejjem jippruvaw differenti inizjali kostellazzjonijiet, interessanti xejriet jistgħu jiġu skoperti.",
+  "enterTheNumberOfLivingCells": "Daħħal l-Għadd ta ' ċelloli ħajjin",
+  "livingCells": "jgħixu ċ-ċelluli",
+  "save": "Save",
+  "back": "- Dahar"
+}

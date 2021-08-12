@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Laro Ng Buhay",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Simulan ang Animation pagkatapos mong pumili ng ilang mga panimulang cell o nabuo mo ang mga ito nang sapalaran",
+  "description": "Ang laro ng buhay ay dinisenyo noong 1970 ng matematiko na si John Horton Conway(1937-2020). Ang patlang ng paglalaro ay nahahati sa mga hilera at haligi at perpektong walang hanggan. Ang bawat grid square ay isang cellular automaton o cell, na maaaring maging buhay o patay. Ang estado ng buhay ng bawat cell ay nagbabago sa bawat pag-ikot depende sa mga kalapit na mga cell, pagsunod sa mga simpleng patakaran. Ang isang patay na cell na may eksaktong tatlong buhay na kapitbahay ay muling ipinanganak sa kasunod na henerasyon. Ang mga buhay na selula na may mas kaunti sa dalawang buhay na kapitbahay ay namamatay sa kalungkutan sa kasunod na henerasyon. Ang isang buhay na cell na may dalawa o tatlong buhay na kapitbahay ay nananatiling buhay sa kasunod na henerasyon. Ang mga buhay na selula na may higit sa tatlong nabubuhay na kapitbahay ay namatay mula sa sobrang populasyon sa kasunod na henerasyon. Sa apat na simpleng patakaran na ito, ang iba ' t ibang mga kumplikadong istruktura ay nilikha mula sa ilang mga paunang pattern sa kurso ng laro. Ang ilan ay nananatiling hindi nagbabago, ang iba ay nag-oscillate, at ang iba pa ay lumalaki o pumasa. Ang ilang mga istraktura, na tinatawag na glider, ay lumipat sa larangan ng paglalaro. Sa pamamagitan ng patuloy na pagsubok ng iba ' t ibang mga paunang konstelasyon, maaaring matuklasan ang mga kagiliw-giliw na pattern.",
+  "enterTheNumberOfLivingCells": "Ipasok ang bilang ng mga buhay na cell",
+  "livingCells": "buhay na mga cell",
+  "save": "I-Save ang",
+  "back": "Bumalik"
+}

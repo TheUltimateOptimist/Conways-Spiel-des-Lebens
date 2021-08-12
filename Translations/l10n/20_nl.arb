@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Spel Van Het Leven",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Start de animatie nadat u een aantal startcellen hebt gekozen of ze willekeurig hebt gegenereerd",
+  "description": "Het spel is ontworpen in 1970 door wiskundige John Horton Conway(1937-2020). Het speelveld is verdeeld in rijen en kolommen en is idealiter oneindig groot. Elk rastervierkant is een cellulaire automaat of cel, die levend of dood kan zijn. De staat van leven van elke cel verandert met elke ronde afhankelijk van de naburige cellen, volgens eenvoudige regels. Een dode cel met precies drie levende buren wordt herboren in de volgende generatie. Levende cellen met minder dan twee levende buren sterven van eenzaamheid in de volgende generatie. Een levende cel met twee of drie levende buren blijft in leven in de volgende generatie. Levende cellen met meer dan drie levende buren sterven aan overbevolking in de volgende generatie. Met deze vier eenvoudige regels worden verschillende complexe structuren gecreëerd op basis van bepaalde initiële patronen in de loop van het spel. Sommige blijven onveranderd, anderen oscilleren, en weer anderen groeien of passeren. Sommige structuren, zogenaamde zweefvliegtuigen, bewegen op het speelveld. Door constant verschillende initiële sterrenbeelden uit te proberen, kunnen interessante patronen worden ontdekt.",
+  "enterTheNumberOfLivingCells": "Voer het aantal levende cellen in",
+  "livingCells": "levende cellen",
+  "save": "Opslaan",
+  "back": "Terug"
+}

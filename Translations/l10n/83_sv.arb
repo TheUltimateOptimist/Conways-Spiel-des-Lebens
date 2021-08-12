@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Livets Spel",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Starta animeringen när du har valt några startceller eller du har genererat dem slumpmässigt",
+  "description": "Livets spel designades 1970 av matematikern John Horton Conway (1937-2020). Spelplanen är uppdelad i rader och kolumner och är idealiskt oändligt stor. Varje rutnät kvadrat är en cellulär automat eller cell, som kan vara antingen levande eller död. Livets tillstånd för varje cell förändras med varje runda beroende på närliggande celler, enligt enkla regler. En död cell med exakt tre levande grannar återföds i den efterföljande generationen. Levande celler med färre än två levande grannar dör av ensamhet i den efterföljande generationen. En levande cell med två eller tre levande grannar lever fortfarande i den efterföljande generationen. Levande celler med mer än tre levande grannar dör av överbefolkning i den efterföljande generationen. Med dessa fyra enkla regler skapas en mängd komplexa strukturer från vissa initiala mönster under spelets gång. Vissa förblir oförändrade, andra oscillerar, och andra växer eller passerar fortfarande. Vissa strukturer, så kallade glidflygplan, går vidare på spelplanen. Genom att ständigt prova olika initiala konstellationer kan intressanta mönster upptäckas.",
+  "enterTheNumberOfLivingCells": "Ange antalet levande celler",
+  "livingCells": "levande celler",
+  "save": "Spara",
+  "back": "Tillbaka"
+}

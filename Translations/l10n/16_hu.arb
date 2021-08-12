@@ -1,0 +1,9 @@
+{
+  "gameOfLife": "Az Élet Játéka",
+  "startTheAnimationAfterYouHaveChosenSomeStartingCellsOrYouHaveGeneratedThemRandomly": "Indítsa el az animációt, miután kiválasztott néhány kezdő cellát, vagy véletlenszerűen generálta őket",
+  "description": "Az élet játékát 1970-ben John Horton Conway matematikus(1937-2020) tervezte. A játéktér sorokra és oszlopokra van osztva, ideális esetben végtelenül nagy. Minden rács négyzet egy cellás automata vagy cella, amely lehet élő vagy halott. Az egyes sejtek élettartama minden körben változik a szomszédos sejtektől függően, egyszerű szabályokat követve. A pontosan három élő szomszéddal rendelkező halott sejt újjászületik a következő generációban. Élő sejtek kevesebb, mint két élő szomszédok meghal a magány a következő generáció. A két vagy három élő szomszéddal rendelkező élő sejt életben marad a következő generációban. A több mint három élő szomszéddal rendelkező élő sejtek meghalnak a következő generáció túlnépesedéséből. Ezzel a négy egyszerű szabályt, a különböző összetett struktúrák jönnek létre bizonyos kezdeti minták során a játék. Egyesek változatlanok maradnak, mások oszcillálnak, mások pedig nőnek vagy haladnak. Egyes struktúrák, úgynevezett vitorlázók, mozognak a játéktéren. A különböző kezdeti csillagképek folyamatos kipróbálásával érdekes mintákat lehet felfedezni.",
+  "enterTheNumberOfLivingCells": "Adja meg az élő sejtek számát",
+  "livingCells": "élő sejtek",
+  "save": "Mentés",
+  "back": "Vissza"
+}
